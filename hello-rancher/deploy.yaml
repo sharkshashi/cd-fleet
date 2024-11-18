@@ -24,7 +24,7 @@ metadata:
   name: hello-rancher
   namespace: hello-rancher
 spec:
-  replicas: 25
+  replicas: 2
   selector:
     matchLabels:
       app: hello-rancher
